@@ -8,6 +8,11 @@ standard: global
 1. TOC
 {:toc}
 
+## Device Information
+
+* Product Information - http://www.iot-button.eu/index_en.html
+* Original Source Code - https://github.com/teXXmo/TheButtonProject
+
 ## Product Images
 
 ![Product Image](button_s_a.jpg "Product Image")
