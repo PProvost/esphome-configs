@@ -10,8 +10,8 @@ standard: global
 
 ## Device Information
 
-* Product Information - http://www.iot-button.eu/index_en.html
-* Original Source Code - https://github.com/teXXmo/TheButtonProject
+* [Product Information](http://www.iot-button.eu/index_en.html)
+* [Original Source Code](https://github.com/teXXmo/TheButtonProject)
 
 ## Product Images
 
@@ -21,13 +21,12 @@ standard: global
 
 ## Flashing Pinout
 
-```
-[ ] - 3V3
-( ) - Txd
-( ) - Rxd
-( ) - GPIO0 (must pull to ground before flashing)
-( ) - Gnd
-```
+| Pin Hole Shape | Purpose |
+| [ ] | 3V3 Input (do not connect if powering off of battery) |
+| ( ) | Txd |
+| ( ) | Rxd |
+| ( ) | GPIO0 (must pull to ground before flashing) |
+| ( ) | Gnd |
 
 ## Basic Configuration
 
@@ -117,7 +116,7 @@ sensor:
 # The D5 pin turns the vreg on & off. Setting to off will shut down the device.
 output:
   - platform: gpio
-    pin: GPIO5     
+    pin: GPIO5
     id: power_pin
 
   - platform: esp8266_pwm
